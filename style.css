@@ -5,7 +5,7 @@
     font-family: "Kanit", sans-serif;
   }
   body {
-    background-color: #ec4527;
+    background-color: #EF3054;
   }
   .wrapper {
     box-sizing: content-box;
@@ -52,7 +52,7 @@
     backface-visibility: hidden;
   }
   .card-before {
-    background-color: #27ec4b;
+    background-color: #47682C;
     font-size: 2.8em;
     font-weight: 600;
   }
@@ -74,7 +74,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: #ec4527;
+    background-color: #EF3054;
     top: 0;
   }
   button {

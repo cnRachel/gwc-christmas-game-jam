@@ -43,13 +43,13 @@ const timeGenerator = () => {
   //format time before displaying
   let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
   let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
-  timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
+  timeValue.innerHTML = `<span>Time: </span>${minutesValue}:${secondsValue}`;
 };
 
 //For calculating moves
 const movesCounter = () => {
   movesCount += 1;
-  moves.innerHTML = `<span>Moves:</span>${movesCount}`;
+  moves.innerHTML = `<span>Moves: </span>${movesCount}`;
 };
 
 //Pick random objects from the items array
